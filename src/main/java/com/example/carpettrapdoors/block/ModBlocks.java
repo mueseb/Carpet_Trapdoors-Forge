@@ -1,6 +1,6 @@
 package com.example.carpettrapdoors.block;
 
-import com.example.carpettrapdoors.ExampleMod;
+import com.example.carpettrapdoors.CarpetTrapdoorsMain;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
@@ -15,8 +15,8 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
-    public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ExampleMod.MOD_ID);
+    public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CarpetTrapdoorsMain.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CarpetTrapdoorsMain.MOD_ID);
     public static final String[] colors = new String[] {"white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"};
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -26,7 +26,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, Supplier<T> block) {
-        BLOCK_ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(ExampleMod.TUTORIAL_GROUP)));
+        BLOCK_ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(CarpetTrapdoorsMain.TUTORIAL_GROUP)));
     }
 
     public static void registerModBlocks(IEventBus eventBus) {

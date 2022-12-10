@@ -9,7 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("carpettrapdoors")
-public class ExampleMod
+public class CarpetTrapdoorsMain
 {
     public static final String MOD_ID = "carpettrapdoors";
 
@@ -20,7 +20,7 @@ public class ExampleMod
         }
     };
 
-    public ExampleMod() {
+    public CarpetTrapdoorsMain() {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
