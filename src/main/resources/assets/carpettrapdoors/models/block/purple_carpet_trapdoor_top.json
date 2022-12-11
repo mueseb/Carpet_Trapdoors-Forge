@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "0": "minecraft:block/purple_wool",
+    "particle": "minecraft:block/purple_wool"
+  },
+  "elements": [
+    {
+      "from": [0, 15, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 1, 16, 2], "texture": "#0"},
+        "east": {"uv": [0, 1, 16, 2], "texture": "#0"},
+        "south": {"uv": [0, 1, 16, 2], "texture": "#0"},
+        "west": {"uv": [0, 1, 16, 2], "texture": "#0"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+      }
+    }
+  ]
+}
