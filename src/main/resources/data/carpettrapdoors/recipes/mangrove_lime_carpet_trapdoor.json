@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#O#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_carpet"
+    },
+    "O": {
+      "item": "minecraft:mangrove_trapdoor"
+    }
+  },
+  "result": {
+    "item": "carpettrapdoors:lime_carpet_trapdoor",
+    "count": 1
+  }
+}
