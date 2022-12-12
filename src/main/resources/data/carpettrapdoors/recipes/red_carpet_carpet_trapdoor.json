@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#O#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_carpet"
+    },
+    "O": {
+      "tag": "minecraft:wooden_trapdoors"
+    }
+  },
+  "result": {
+    "item": "carpettrapdoors:red_carpet_trapdoor",
+    "count": 1
+  }
+}
