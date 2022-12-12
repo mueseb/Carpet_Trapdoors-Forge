@@ -14,8 +14,6 @@ public class CarpetTrapdoorsMain
 {
     public static final String MOD_ID = "carpettrapdoors";
 
-//    public static final CreativeModeTab TUTORIAL_GROUP = new CreativeModeTab.Builder(CreativeModeTab.Row.TOP,1).icon(() -> new ItemStack(Items.RED_CARPET)).build();
-
     public CarpetTrapdoorsMain() {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
