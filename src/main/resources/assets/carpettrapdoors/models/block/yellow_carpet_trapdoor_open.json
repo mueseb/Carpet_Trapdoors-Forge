@@ -1,21 +1,7 @@
 {
-  "parent": "minecraft:block/template_trapdoor_open",
+  "parent": "carpettrapdoors:block/carpet_trapdoor_open_template",
   "textures": {
     "0": "minecraft:block/yellow_wool",
     "particle": "minecraft:block/yellow_wool"
-  },
-  "elements": [
-    {
-      "from": [0, 0, 15],
-      "to": [16, 16, 16],
-      "faces": {
-        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
-        "east": {"uv": [1, 0, 2, 16], "texture": "#0"},
-        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
-        "west": {"uv": [1, 0, 2, 16], "texture": "#0"},
-        "up": {"uv": [0, 1, 16, 2], "texture": "#0"},
-        "down": {"uv": [0, 1, 16, 2], "texture": "#0"}
-      }
-    }
-  ]
+  }
 }

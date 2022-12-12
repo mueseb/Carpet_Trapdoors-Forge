@@ -1,10 +1,6 @@
-package com.example.carpettrapdoors;
+package com.mueseb.carpettrapdoors;
 
-import com.example.carpettrapdoors.block.ModBlocks;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+import com.mueseb.carpettrapdoors.block.ModBlocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

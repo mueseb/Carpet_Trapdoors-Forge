@@ -1,10 +1,8 @@
-package com.example.carpettrapdoors.block;
+package com.mueseb.carpettrapdoors.block;
 
-import com.example.carpettrapdoors.CarpetTrapdoorsMain;
-import net.minecraft.sounds.SoundEvent;
+import com.mueseb.carpettrapdoors.CarpetTrapdoorsMain;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -44,13 +42,13 @@ public class ModBlocks {
     public static void registerWoodenTrapdoors()
     {
         for (String color: colors) {
-            registerBlock(color+"_carpet_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.WOOL).strength(3.0f, 3.0f).sound(SoundType.WOOL), SoundEvents.WOODEN_TRAPDOOR_OPEN, SoundEvents.WOODEN_TRAPDOOR_CLOSE));
+            registerBlock(color+"_carpet_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.WOOL).strength(0.1f, 0.1f).sound(SoundType.WOOL), SoundEvents.WOODEN_TRAPDOOR_OPEN, SoundEvents.WOODEN_TRAPDOOR_CLOSE));
         }
     }
     public static void registerIronTrapdoors()
     {
         for (String color: colors) {
-            registerBlock(color+"_carpet_iron_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f, 3.0f).sound(SoundType.WOOL), SoundEvents.IRON_TRAPDOOR_OPEN, SoundEvents.IRON_TRAPDOOR_CLOSE));
+            registerBlock(color+"_carpet_iron_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.METAL).strength(0.1f, 0.1f).sound(SoundType.WOOL), SoundEvents.IRON_TRAPDOOR_OPEN, SoundEvents.IRON_TRAPDOOR_CLOSE));
         }
     }
 

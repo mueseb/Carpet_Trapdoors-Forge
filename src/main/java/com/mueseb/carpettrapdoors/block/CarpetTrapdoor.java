@@ -1,4 +1,4 @@
-package com.example.carpettrapdoors.block;
+package com.mueseb.carpettrapdoors.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;

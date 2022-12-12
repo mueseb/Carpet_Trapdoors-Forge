@@ -1,6 +1,6 @@
-package com.example.carpettrapdoors;
+package com.mueseb.carpettrapdoors;
 
-import com.example.carpettrapdoors.block.ModBlocks;
+import com.mueseb.carpettrapdoors.block.ModBlocks;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
