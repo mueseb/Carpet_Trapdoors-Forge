@@ -13,7 +13,7 @@ public class CarpetTrapdoorsMain
 {
     public static final String MOD_ID = "carpettrapdoors";
 
-    public static final CreativeModeTab TUTORIAL_GROUP = new CreativeModeTab("carpetTrapdoorsTab") {
+    public static final CreativeModeTab CarpetTrapdoorsTab = new CreativeModeTab("carpet_trapdoorsTab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(Items.RED_CARPET);

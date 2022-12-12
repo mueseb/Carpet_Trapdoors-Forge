@@ -28,7 +28,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, Supplier<T> block) {
-        BLOCK_ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(CarpetTrapdoorsMain.TUTORIAL_GROUP)));
+        BLOCK_ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(CarpetTrapdoorsMain.CarpetTrapdoorsTab)));
     }
 
     public static void registerModBlocks(IEventBus eventBus) {
@@ -41,13 +41,13 @@ public class ModBlocks {
     public static void registerWoodenTrapdoors()
     {
         for (String color: colors) {
-            registerBlock(color+"_carpet_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.WOOL).strength(3.0f, 3.0f).sound(SoundType.WOOL)));
+            registerBlock(color+"_carpet_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.WOOL).strength(0.1f, 0.1f).sound(SoundType.WOOL)));
         }
     }
     public static void registerIronTrapdoors()
     {
         for (String color: colors) {
-            registerBlock(color+"_carpet_iron_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f, 3.0f).sound(SoundType.WOOL)));
+            registerBlock(color+"_carpet_iron_trapdoor", () -> new CarpetTrapdoor(BlockBehaviour.Properties.of(Material.METAL).strength(0.1f, 0.1f).sound(SoundType.WOOL)));
         }
     }
 
