@@ -15,6 +15,7 @@
   "block.carpettrapdoors.brown_carpet_trapdoor": "Brown Carpet Trapdoor",
   "block.carpettrapdoors.green_carpet_trapdoor": "Green Carpet Trapdoor",
   "block.carpettrapdoors.black_carpet_trapdoor": "Black Carpet Trapdoor",
+  "block.carpettrapdoors.moss_carpet_trapdoor": "Moss Carpet Trapdoor",
   "block.carpettrapdoors.red_carpet_iron_trapdoor": "Red Carpet Iron Trapdoor",
   "block.carpettrapdoors.white_carpet_iron_trapdoor": "White Carpet Iron Trapdoor",
   "block.carpettrapdoors.orange_carpet_iron_trapdoor": "Orange Carpet Iron Trapdoor",
@@ -31,5 +32,6 @@
   "block.carpettrapdoors.brown_carpet_iron_trapdoor": "Brown Carpet Iron Trapdoor",
   "block.carpettrapdoors.green_carpet_iron_trapdoor": "Green Carpet Iron Trapdoor",
   "block.carpettrapdoors.black_carpet_iron_trapdoor": "Black Carpet Iron Trapdoor",
+  "block.carpettrapdoors.moss_carpet_iron_trapdoor": "Moss Carpet Iron Trapdoor",
   "itemGroup.carpet_trapdoorsTab": "Carpet Trapdoors"
 }
