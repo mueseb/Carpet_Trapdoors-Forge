@@ -1,0 +1,7 @@
+{
+  "parent": "carpettrapdoors:block/carpet_trapdoor_top_template",
+  "textures": {
+    "0": "minecraft:block/moss_block",
+    "particle": "minecraft:block/moss_block"
+  }
+}
