@@ -1,0 +1,7 @@
+{
+  "parent": "carpettrapdoors:block/carpet_trapdoor_open_template",
+  "textures": {
+    "0": "minecraft:block/lime_wool",
+    "particle": "minecraft:block/lime_wool"
+  }
+}

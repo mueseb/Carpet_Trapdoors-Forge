@@ -1,0 +1,7 @@
+{
+  "parent": "carpettrapdoors:block/carpet_trapdoor_bottom_template",
+  "textures": {
+    "0": "minecraft:block/cyan_wool",
+    "particle": "minecraft:block/cyan_wool"
+  }
+}
