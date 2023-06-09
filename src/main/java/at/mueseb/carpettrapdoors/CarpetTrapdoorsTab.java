@@ -13,9 +13,7 @@ public class CarpetTrapdoorsTab {
     public static void addItemsToTabs(BuildCreativeModeTabContentsEvent event) {
 
         if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
-            for (RegistryObject item : ModBlocks.BLOCK_ITEMS.getEntries()) {
-                event.accept((Item) item.get());
-            }
+            ModBlocks.BLOCK_ITEMS.getEntries().stream().map(RegistryObject::get).forEach(event::accept);
         }
     }
 }
